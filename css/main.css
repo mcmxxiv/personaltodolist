@@ -1,0 +1,92 @@
+body {
+	background-color: #E0E7E7;	
+}
+
+body,
+input {
+	font: 1em "Open Sans", sans-serif;
+	color: #363639;	
+}
+
+a {
+	text-decoration: none;
+	border-bottom: 1px dashed #363639;
+}
+
+/* List */
+.list{
+	background-color: #A5DCEF; 
+	margin: 50px auto;
+	width: 100%;
+	max-width: 500px;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 0 rgba(0, 0, 0, .3);
+	box-sizing: border-box;
+}
+
+.list .header {
+	font-family: "Shadows Into Light Two", cursive;
+	margin: 0 0 10px 0;
+}
+
+/* Items */
+.items {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.items li:hover .done-button {	
+	opacity:1;
+}
+
+.items .item.done {
+	text-decoration: line-through;
+}
+
+.items li,				
+.item-add .input {    
+	border:0;
+	border-bottom:1px dashed #01B4FF; 
+	padding: 10px 0;
+}
+
+.input { 
+	width:100%;	
+	background-color: #A5DCEF;
+}
+.input:focus {	
+	outline:none;
+}
+
+
+.done-button {
+	display: inline-block;
+	font-size: .8em;
+	background-color: #01F8FC; 	
+	color: 363639;
+	padding: 1px 9px;
+	border: 0;
+	opacity: 0.4;
+}
+
+.delete-button {
+	display: inline-block;
+	font-size: .7em;
+	background-color: #01F8FC; 
+	color: 363639;
+	padding: 1px 9px;
+	border: 0;
+	opacity: 0.4;
+}
+
+
+.submit {
+	background-color: #fff;
+	padding: 5px 10px;
+	border: 1px solid #ddd;
+	width: 100%;
+	margin-top:10px;
+	box-shadow: 3px 3px 0 #ddd;
+}
